@@ -1,0 +1,247 @@
+
+
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bolder;
+    
+}
+
+
+
+.inicio-titulo{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.imagen-disco{
+    border: outset;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+.fila{
+    height: 100%;
+    display: grid;
+    grid-template-areas: "columna"
+                         "columna"
+                         "columna"
+                         "columna";
+    justify-content: center;
+}
+
+.columna{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ícono para presionar y volver arriba*/ 
+.boton-arriba{
+    display: grid;
+    grid-template-areas: "deedee"
+                         "comentDeeDee";
+    justify-content: right;
+    text-align: center;
+   
+}
+
+.deedee-chico{
+    width: 150px;
+}
+
+.boton-arriba img{
+    border: none;
+}
+
+.comentario-deedee{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/* derechos de autor*/
+footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    overflow: hidden;
+    font-weight: lighter;
+}
+
+/* sección discos*/
+
+.inicio-titulo{
+    text-align: center;
+}
+
+
+.titulo-seccion-discos{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.discos-parrafo{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+.publi-contenedor{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.publi-contenedor .publi-foto{
+    width: 500px;
+    height: 500px;
+    margin-bottom: 15px;
+}
+
+.publi-contenedor{
+    display: none;
+}
+
+.tienda{
+    height: 100%;
+    display: grid;
+    grid-template-areas: "todos-los-discos"
+                         "todos-los-discos"
+                         "todos-los-discos"
+                         "todos-los-discos"
+                         "todos-los-discos"
+                         "todos-los-discos";
+    justify-content: center;
+    gap: 30px;
+}
+
+.todos-los-discos img{
+    border: outset;
+    width: 200px;
+    height: 200px;
+    padding: 10px; ;
+}
+
+
+/* sección Nosotros*/
+.nosotros-cuerpo{
+    height: 100%;
+    background-image: url(../img/zona\ back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+.sobre-nosotros{
+    margin: 20px;
+    padding: 10px;
+    display: grid;
+    justify-content: stretch;
+    text-align: center;
+    box-shadow: rgba(0,0,0,0.5);
+    background: rgba(237, 240, 245, 0.692);
+    border-radius: 5px;
+}
+
+/* ícono para presionar y volver arriba*/ 
+.boton-nosotros-footer{
+    display: grid;
+    grid-template-areas: "deedee"
+                         "comentario-deedee";
+    justify-content: right;
+    text-align: center;
+    margin-top: 600px;
+   
+}
+
+.boton-nosotros-footer img{
+    width: 150px;
+    border: none;
+}
+
+.comentario-deedee{
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+h2,p{
+    text-align: center;
+}
+
+.comentario-deedee2{
+    color: black;
+}
+
+
+
+
+
+
+@media only screen and (min-width:600px) {
+
+
+body{
+    background-color:white;
+}
+
+/* home*/
+h1{
+    display: grid;
+}
+
+.inicio-titulo{
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+/* publicidad sección discos*/
+.publi-contenedor{
+    display: flex;
+}
+
+}
+
+@media only screen and (min-width:1024px){
+
+/* sección discos*/
+.fila{
+    height: 100%;
+    display: grid;
+    grid-template-areas: "column column"
+                         "column column";
+    justify-content: center;
+}
+    
+
+
+.tienda{
+    height: 100%;
+    display: grid;
+    grid-template-areas: "todosLosDiscos todosLosDiscos"
+                         "todosLosDiscos todosLosDiscos"
+                         "todosLosDiscos todosLosDiscos";
+    justify-content: center;
+}
+
+.publi-contenedor{
+    display: flex;
+}
+
+.publi-contenedor .publi-foto{
+    width: 600px;
+    height: 600px;
+    margin-bottom: 15px;
+}
+
+}
