@@ -3,6 +3,7 @@
 body{
     font-family: 'Bebas Neue', cursive;
     font-weight: bolder;
+    background-color: #ecf476!important;
     
 }
 
@@ -65,8 +66,8 @@ footer{
     background-color: black;
     color:white;
     text-align: center;
-    padding: 15px;
-    margin-top: 20px;
+    padding: 1rem;
+    margin-top: 1rem;
     overflow: hidden;
     font-weight: lighter;
 }
@@ -128,6 +129,10 @@ footer{
 
 
 /* sección Nosotros*/
+
+.color-nosotros {
+    color: #ecf476;
+}
 .nosotros-cuerpo{
     height: 100%;
     background-image: url(../img/zona\ back.jpg);
@@ -135,8 +140,6 @@ footer{
     background-size: cover;
     background-attachment: fixed;
 }
-
-
 
 .sobre-nosotros{
     margin: 20px;
@@ -179,6 +182,7 @@ h2,p{
 .comentario-deedee2{
     color: black;
 }
+
 
 
 
